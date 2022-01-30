@@ -1,10 +1,10 @@
 import Head from 'next/head'
 import Link from 'next/link'
-
+import st from '../src/styles/main.module.scss'
 
 export default function Home() {
   return (
-    <div className="container">
+    <div>
       <Head>
         <title>JBarlow Dev</title>
         <link rel="icon" href="/favicon.ico" />
@@ -17,21 +17,6 @@ export default function Home() {
       </main>
 
       <Link href="/post/test-post"><a>Test Post</a></Link>
-
-      <style jsx global>{`
-        html,
-        body {
-          padding: 0;
-          margin: 0;
-          font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-            Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-            sans-serif;
-        }
-
-        * {
-          box-sizing: border-box;
-        }
-      `}</style>
     </div>
   )
 }

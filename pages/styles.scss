@@ -1,0 +1,14 @@
+@import '../src/styles/base';
+
+html {
+    background-color: $background-color;
+    color: $font-color;
+  
+    a {
+      color: $highlight;
+    }
+  
+    a:visited {
+      color: $highlight-dark;
+    }
+}
