@@ -1,17 +1,16 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import st from '../src/styles/main.module.scss'
 
 export default function Home() {
   return (
-    <div>
+    <div className='bg-stone-800 min-h-screen'>
       <Head>
         <title>JBarlow Dev</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <h1>
+        <h1 className="text-6xl font-bold text-red-500">
           Welcome me
         </h1>
       </main>
