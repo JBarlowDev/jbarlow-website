@@ -3,14 +3,14 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-    <div className='bg-stone-800 min-h-screen'>
+    <div>
       <Head>
         <title>JBarlow Dev</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <h1 className="text-6xl font-bold text-red-500">
+        <h1 className="text-6xl font-bold text-orange-600">
           Welcome me
         </h1>
       </main>

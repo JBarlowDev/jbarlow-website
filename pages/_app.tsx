@@ -1,9 +1,14 @@
 // import App from "next/app";
 import type { AppProps /*, AppContext */ } from 'next/app'
 import '../styles/globals.css'
+import Layout from '../src/components/layout/layout'
 
 function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+  return (
+    <Layout>
+      <Component {...pageProps} />
+    </Layout >
+  )
 }
 
 // Only uncomment this method if you have blocking data requirements for
@@ -19,3 +24,4 @@ function MyApp({ Component, pageProps }: AppProps) {
 // }
 
 export default MyApp
+
