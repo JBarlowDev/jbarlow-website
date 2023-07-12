@@ -3,10 +3,9 @@ import React from 'react'
 
 export const Header = () => {
   return (
-    <div className='bg-background/50'>
-      <p>Header</p>
-			
-      <Link href="/"><a>Home</a></Link>
+    <div className='bg-light-background/50 py-8 flex gap-16'>
+      <Link href="/">Home</Link>
+      <Link href="/posts">Blog</Link>
     </div>
   )
 }

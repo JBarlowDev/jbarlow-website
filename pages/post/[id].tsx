@@ -18,7 +18,7 @@ export default function Post(props: PostProps) {
       <br />
       <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
 
-      <Link href="/posts"><a>See all</a></Link>
+      <Link href="/posts">See all</Link>
     </>
   )
 }

@@ -15,7 +15,7 @@ export default function Home() {
         </h1>
       </main>
 
-      <Link href="/post/test-post"><a>Test Post</a></Link>
+      <Link href="/post/test-post">Test Post</Link>
     </div>
   )
 }

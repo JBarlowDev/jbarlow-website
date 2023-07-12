@@ -10,7 +10,7 @@ const TestPost = (props: any) => {
           {props.allPostsData.map(({ id, date, title }) => (
             <li key={id}>
               <Link href={`/post/${id}`}>
-                <a>{title}</a>
+                {title}
               </Link>
               <br />
               {id}
