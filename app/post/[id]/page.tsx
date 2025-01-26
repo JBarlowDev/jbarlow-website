@@ -12,8 +12,6 @@ type PostPageParams = {
   }
 }
 
-// export const dynamicParams = false
-
 export default async function Post(props: PostPageParams) {
   const { postData } = await getPageData(props.params.id)
 

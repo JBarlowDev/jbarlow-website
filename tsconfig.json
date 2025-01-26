@@ -27,6 +27,8 @@
   },
   "include": [
     "src",
+    "**/*.ts",
+    "**/*.tsx",
     ".next/types/**/*.ts"
   ],
   "exclude": [
